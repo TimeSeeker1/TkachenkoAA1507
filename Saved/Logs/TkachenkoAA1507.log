@@ -2120,3 +2120,286 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.21-15.23.20:174][530]AssetCheck: New page: Asset Save: multiple assets
 [2021.07.21-15.23.20:174][530]LogContentValidation: Display: Validating World /Game/TkachenkoAA/Levels/Untitled.Untitled
 [2021.07.21-15.23.20:174][530]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TkachenkoAA/Levels/Untitled_BuiltData.Untitled_BuiltData
+[2021.07.21-15.27.50:697][995]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.21-15.27.50:706][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.21-15.27.50:706][995]PIE: New page: PIE session: Untitled (21 июл. 2021 г., 21:27:50)
+[2021.07.21-15.27.50:707][995]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_Untitled
+[2021.07.21-15.27.50:711][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003724s)
+[2021.07.21-15.27.50:712][995]LogAIModule: Creating AISystem for world Untitled
+[2021.07.21-15.27.50:712][995]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013ABF9BBE00), frame # 323995
+[2021.07.21-15.27.50:712][995]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013A8A694400), frame # 323995
+[2021.07.21-15.27.50:712][995]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2021.07.21-15.27.50:712][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/Untitled.Untitled to /Game/TkachenkoAA/Levels/UEDPIE_0_Untitled.Untitled (0.005375s)
+[2021.07.21-15.27.50:742][995]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.21-15.27.50:747][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.21-15.27.50:747][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.21-15.27.50:748][995]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.21-15.27.50:748][995]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.21-15.27.50:752][995]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.21-15.27.50:752][995]LogAudioMixer: Display: 1: FrontRight
+[2021.07.21-15.27.50:785][995]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.21-15.27.50:785][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.21-15.27.50:785][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.21-15.27.50:785][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.21-15.27.50:786][995]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.21-15.27.50:802][995]LogInit: FAudioDevice initialized.
+[2021.07.21-15.27.50:811][995]LogLoad: Game class is 'GameModeBase'
+[2021.07.21-15.27.50:813][995]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2021.07.21-18.27.50
+[2021.07.21-15.27.50:814][995]LogWorld: Bringing up level for play took: 0.001819
+[2021.07.21-15.27.50:814][995]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.07.21-15.27.50:816][995]PIE: Server logged in
+[2021.07.21-15.27.50:817][995]PIE: Play in editor total start time 0,112 seconds.
+[2021.07.21-15.27.56:538][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-15.27.56:538][599]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_Untitled
+[2021.07.21-15.27.56:538][599]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.21-15.27.56:539][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-15.27.56:550][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.21-15.27.56:554][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.21-15.27.56:579][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.21-15.27.56:600][599]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013A8A694400), frame # 324599
+[2021.07.21-15.27.56:600][599]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013ABF9BBE00), frame # 324599
+[2021.07.21-15.27.56:602][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.07.21-15.27.56:628][600]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.07.21-15.27.58:176][759]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.07.21-15.27.58:305][759]LogPlayLevel: Launcher Device ID: WindowsNoEditor@DESKTOP-CEMMGDH
+[2021.07.21-15.27.58:442][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.21-15.27.58:485][759]LogCook: Display: Creating asset registry
+[2021.07.21-15.27.58:561][759]LogCook: Display: Discovering localized assets for cultures: en
+[2021.07.21-15.27.58:589][759]LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2021.07.21-15.27.58:589][759]LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2021.07.21-15.27.58:660][759]LogCook: Display: Sandbox cleanup took 0.093 seconds for platforms WindowsNoEditor 
+[2021.07.21-15.28.02:400][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2715
+[2021.07.21-15.28.02:400][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2714
+[2021.07.21-15.28.02:400][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2713
+[2021.07.21-15.28.02:400][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2712
+[2021.07.21-15.28.02:400][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2711
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2710
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2709
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2708
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2707
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2706
+[2021.07.21-15.28.02:959][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2705
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2704
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2703
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2702
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2701
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2700
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2699
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2698
+[2021.07.21-15.28.03:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2697
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2696
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2695
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2694
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2693
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2692
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2691
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2690
+[2021.07.21-15.28.04:078][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2689
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2688
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2687
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2686
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2685
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2684
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2683
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2682
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2681
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2680
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2679
+[2021.07.21-15.28.04:635][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2678
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2677
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2676
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2675
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2674
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2673
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2672
+[2021.07.21-15.28.05:189][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2671
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2670
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2669
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2668
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2667
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2666
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2665
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2664
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2663
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2662
+[2021.07.21-15.28.05:744][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2661
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2660
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2659
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2658
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2657
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2656
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2655
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2654
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2653
+[2021.07.21-15.28.06:298][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2652
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2651
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2650
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2649
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2648
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2647
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2646
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2645
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2644
+[2021.07.21-15.28.06:854][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2643
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2642
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2641
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2640
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2639
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2638
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2637
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2636
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2635
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2634
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2633
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2632
+[2021.07.21-15.28.07:409][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2631
+[2021.07.21-15.28.07:963][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2630
+[2021.07.21-15.28.07:963][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2629
+[2021.07.21-15.28.07:963][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2628
+[2021.07.21-15.28.07:963][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2627
+[2021.07.21-15.28.07:963][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2626
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2625
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2624
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2623
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2622
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2621
+[2021.07.21-15.28.08:519][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2620
+[2021.07.21-15.28.09:075][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2619
+[2021.07.21-15.28.09:075][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2618
+[2021.07.21-15.28.09:075][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2617
+[2021.07.21-15.28.09:075][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2616
+[2021.07.21-15.28.10:186][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2615
+[2021.07.21-15.28.10:186][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2614
+[2021.07.21-15.28.10:186][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2613
+[2021.07.21-15.28.10:186][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2612
+[2021.07.21-15.28.10:186][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2611
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2610
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2609
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2608
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2607
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2606
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2605
+[2021.07.21-15.28.10:741][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2604
+[2021.07.21-15.28.11:296][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2603
+[2021.07.21-15.28.11:296][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2602
+[2021.07.21-15.28.11:296][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2601
+[2021.07.21-15.28.11:296][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2600
+[2021.07.21-15.28.11:296][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2599
+[2021.07.21-15.28.11:852][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2598
+[2021.07.21-15.28.11:852][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2597
+[2021.07.21-15.28.11:852][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2596
+[2021.07.21-15.28.11:852][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2595
+[2021.07.21-15.28.11:852][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2594
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2593
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2592
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2591
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2590
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2589
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2588
+[2021.07.21-15.28.12:407][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2587
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2586
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2585
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2584
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2583
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2582
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2581
+[2021.07.21-15.28.12:962][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2580
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2579
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2578
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2577
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2576
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2575
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2574
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2573
+[2021.07.21-15.28.13:517][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2572
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2571
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2570
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2569
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2568
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2567
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2566
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2565
+[2021.07.21-15.28.14:072][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2564
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2563
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2562
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2561
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2560
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2559
+[2021.07.21-15.28.14:628][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2558
+[2021.07.21-15.28.15:184][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2557
+[2021.07.21-15.28.15:184][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2556
+[2021.07.21-15.28.16:293][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2555
+[2021.07.21-15.28.16:848][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2554
+[2021.07.21-15.28.16:848][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2553
+[2021.07.21-15.28.17:404][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2552
+[2021.07.21-15.28.17:404][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2551
+[2021.07.21-15.28.17:960][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2550
+[2021.07.21-15.28.17:960][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2549
+[2021.07.21-15.28.18:514][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2548
+[2021.07.21-15.28.19:071][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2547
+[2021.07.21-15.28.19:071][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2546
+[2021.07.21-15.28.19:627][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2545
+[2021.07.21-15.28.20:182][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2544
+[2021.07.21-15.28.20:182][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2543
+[2021.07.21-15.28.20:737][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2542
+[2021.07.21-15.28.21:294][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2541
+[2021.07.21-15.28.21:294][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2540
+[2021.07.21-15.28.21:850][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2539
+[2021.07.21-15.28.22:406][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2538
+[2021.07.21-15.28.22:963][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2537
+[2021.07.21-15.28.22:963][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2536
+[2021.07.21-15.28.23:519][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2535
+[2021.07.21-15.28.24:076][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2534
+[2021.07.21-15.28.24:076][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2533
+[2021.07.21-15.28.25:188][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2532
+[2021.07.21-15.28.26:856][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2531
+[2021.07.21-15.28.27:968][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2530
+[2021.07.21-15.28.29:636][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2529
+[2021.07.21-15.28.30:748][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2528
+[2021.07.21-15.28.31:305][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2527
+[2021.07.21-15.28.33:529][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2526
+[2021.07.21-15.28.34:644][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2525
+[2021.07.21-15.28.36:316][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2524
+[2021.07.21-15.28.39:095][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2523
+[2021.07.21-15.28.41:359][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2522
+[2021.07.21-15.28.44:148][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2521
+[2021.07.21-15.28.48:126][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2520
+[2021.07.21-15.28.49:250][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2519
+[2021.07.21-15.28.50:380][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2518
+[2021.07.21-15.28.50:380][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2517
+[2021.07.21-15.28.51:520][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2516
+[2021.07.21-15.28.51:520][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2515
+[2021.07.21-15.28.52:670][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2514
+[2021.07.21-15.28.53:236][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2513
+[2021.07.21-15.28.53:793][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2512
+[2021.07.21-15.28.54:350][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2511
+[2021.07.21-15.28.54:906][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2510
+[2021.07.21-15.28.55:461][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2509
+[2021.07.21-15.28.55:461][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2508
+[2021.07.21-15.28.56:038][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2507
+[2021.07.21-15.28.56:619][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2506
+[2021.07.21-15.28.57:196][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2505
+[2021.07.21-15.28.57:771][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2504
+[2021.07.21-15.28.59:845][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2503
+[2021.07.21-15.29.01:037][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2502
+[2021.07.21-15.29.01:746][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2501
+[2021.07.21-15.29.03:527][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2500
+[2021.07.21-15.29.08:439][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2499
+[2021.07.21-15.29.09:594][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2498
+[2021.07.21-15.29.11:994][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2497
+[2021.07.21-15.29.17:314][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2496
+[2021.07.21-15.29.20:914][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2495
+[2021.07.21-15.29.24:420][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2494
+[2021.07.21-15.29.27:846][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2493
+[2021.07.21-15.29.31:801][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2492
+[2021.07.21-15.29.36:398][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2491
+[2021.07.21-15.29.43:427][759]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2490
+[2021.07.21-15.29.50:091][759]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2489
+[2021.07.21-15.30.13:447][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2488
+[2021.07.21-15.30.14:028][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2487
