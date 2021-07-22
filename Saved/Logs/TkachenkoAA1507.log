@@ -1,8 +1,8 @@
-﻿Log file open, 07/22/21 17:32:25
+﻿Log file open, 07/22/21 18:04:50
 LogInit: Display: Running engine for game: TkachenkoAA1507
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.282269
+LogStats: Stats thread started at 0.231393
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,584 +194,943 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:751][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.07.22-14.32.25:751][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.07.22-14.32.25:752][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:752][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.07.22-14.32.25:759][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.07.22-14.32.25:760][  0]LogInit: Selected Device Profile: [Windows]
-[2021.07.22-14.32.25:760][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.07.22-14.32.25:760][  0]LogHAL: Display: Platform has ~ 24 GB [25633722368 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.07.22-14.32.25:760][  0]LogInit: Going up to parent DeviceProfile []
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.07.22-14.32.25:760][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.07.22-14.32.25:761][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.07.22-14.32.25:762][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.07.22-14.32.25:762][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.07.22-14.32.25:762][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.07.22-14.32.25:762][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.07.22-14.32.25:762][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
-[2021.07.22-14.32.25:762][  0]LogInit: Computer: DESKTOP-CEMMGDH
-[2021.07.22-14.32.25:762][  0]LogInit: User: TimeSeeker
-[2021.07.22-14.32.25:762][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.07.22-14.32.25:762][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.07.22-14.32.25:762][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2021.07.22-14.32.25:762][  0]LogMemory: Platform Memory Stats for Windows
-[2021.07.22-14.32.25:763][  0]LogMemory: Process Physical Memory: 114.83 MB used, 114.84 MB peak
-[2021.07.22-14.32.25:763][  0]LogMemory: Process Virtual Memory: 95.22 MB used, 95.22 MB peak
-[2021.07.22-14.32.25:763][  0]LogMemory: Physical Memory: 9480.71 MB used,  14965.51 MB free, 24446.22 MB total
-[2021.07.22-14.32.25:763][  0]LogMemory: Virtual Memory: 5128.54 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2021.07.22-14.32.25:770][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.07.22-14.32.25:832][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.07.22-14.32.25:833][  0]LogInit: Using OS detected language (ru-RU).
-[2021.07.22-14.32.25:833][  0]LogInit: Using OS detected locale (ru-RU).
-[2021.07.22-14.32.25:835][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
-[2021.07.22-14.32.25:835][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
-[2021.07.22-14.32.25:835][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
-[2021.07.22-14.32.25:835][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
-[2021.07.22-14.32.25:836][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
-[2021.07.22-14.32.25:836][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
-[2021.07.22-14.32.25:836][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
-[2021.07.22-14.32.25:836][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
-[2021.07.22-14.32.25:837][  0]LogInit: Setting process to per monitor DPI aware
-[2021.07.22-14.32.25:870][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.07.22-14.32.25:870][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.07.22-14.32.26:118][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.07.22-14.32.26:118][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.07.22-14.32.26:118][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.07.22-14.32.26:118][  0]LogD3D11RHI: D3D11 adapters:
-[2021.07.22-14.32.26:240][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2021.07.22-14.32.26:240][  0]LogD3D11RHI:       4018/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.07.22-14.32.26:284][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2021.07.22-14.32.26:284][  0]LogD3D11RHI:       128/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.07.22-14.32.26:288][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.07.22-14.32.26:288][  0]LogD3D11RHI:       0/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.07.22-14.32.26:288][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.07.22-14.32.26:297][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.07.22-14.32.26:297][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2021.07.22-14.32.26:297][  0]LogWindows: EnumDisplayDevices:
-[2021.07.22-14.32.26:298][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2021.07.22-14.32.26:298][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2021.07.22-14.32.26:298][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2021.07.22-14.32.26:298][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2021.07.22-14.32.26:299][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2021.07.22-14.32.26:299][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2021.07.22-14.32.26:299][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2021.07.22-14.32.26:299][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2021.07.22-14.32.26:299][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2021.07.22-14.32.26:299][  0]LogD3D11RHI:   Driver Version: 466.27 (internal:27.21.14.6627, unified:466.27)
-[2021.07.22-14.32.26:299][  0]LogD3D11RHI:      Driver Date: 4-23-2021
-[2021.07.22-14.32.26:299][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2021.07.22-14.32.26:391][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.07.22-14.32.26:391][  0]LogD3D11RHI: Async texture creation enabled
-[2021.07.22-14.32.26:391][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.07.22-14.32.26:412][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.07.22-14.32.26:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.07.22-14.32.26:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.07.22-14.32.26:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.07.22-14.32.26:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.07.22-14.32.26:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.07.22-14.32.26:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.07.22-14.32.26:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.07.22-14.32.26:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.07.22-14.32.26:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.07.22-14.32.26:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.07.22-14.32.26:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.07.22-14.32.26:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.07.22-14.32.26:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.07.22-14.32.26:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.07.22-14.32.26:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.07.22-14.32.26:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.07.22-14.32.26:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.07.22-14.32.26:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.07.22-14.32.26:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.07.22-14.32.26:938][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.07.22-14.32.26:948][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.07.22-14.32.27:013][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (D:/Game/TkachenkoAA1507/Intermediate/Shaders/WorkingDirectory/22696/).
-[2021.07.22-14.32.27:013][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Time_Seeker/AppData/Local/Temp/UnrealShaderWorkingDir/5A374CC84043459008E5ECB4CBF08174/'.
-[2021.07.22-14.32.27:014][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.07.22-14.32.27:014][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.07.22-14.32.27:014][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.07.22-14.32.27:861][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.07.22-14.32.27:928][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.07.22-14.32.27:928][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.07.22-14.32.27:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Game/TkachenkoAA1507/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.07.22-14.32.27:928][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.07.22-14.32.27:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Game/TkachenkoAA1507/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.07.22-14.32.27:929][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.07.22-14.32.27:940][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.07.22-14.32.27:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.07.22-14.32.27:940][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.07.22-14.32.27:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Time_Seeker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.07.22-14.32.27:941][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.07.22-14.32.27:941][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.07.22-14.32.27:995][  0]LogSlate: Using FreeType 2.10.0
-[2021.07.22-14.32.27:996][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.07.22-14.32.28:029][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
-[2021.07.22-14.32.28:274][  0]LogInit: Selected Device Profile: [Windows]
-[2021.07.22-14.32.28:411][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.07.22-14.32.28:411][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.07.22-14.32.28:411][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.07.22-14.32.28:411][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.07.22-14.32.28:411][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.07.22-14.32.28:431][  0]LogNetVersion: TkachenkoAA1507 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3901960413)
-[2021.07.22-14.32.28:956][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000028071BB7FC0), frame # 0
-[2021.07.22-14.32.28:956][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028071BC7740), frame # 0
-[2021.07.22-14.32.28:957][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028071CBC800), frame # 0
-[2021.07.22-14.32.29:104][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.140030 seconds
-[2021.07.22-14.32.29:110][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.07.22-14.32.29:110][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.07.22-14.32.29:110][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.07.22-14.32.29:583][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.07.22-14.32.29:589][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.07.22-14.32.29:687][  0]SourceControl: Source control is disabled
-[2021.07.22-14.32.30:341][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.07.22-14.32.30:342][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.07.22-14.32.30:588][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.07.22-14.32.30:611][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.07.22-14.32.30:611][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.07.22-14.32.30:663][  0]LogOcInput: OculusInput pre-init called
-[2021.07.22-14.32.30:675][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.07.22-14.32.30:675][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.07.22-14.32.30:739][  0]LogEngine: Initializing Engine...
-[2021.07.22-14.32.30:740][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.07.22-14.32.30:740][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.07.22-14.32.30:741][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.07.22-14.32.30:880][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.07.22-14.32.30:887][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.07.22-14.32.30:888][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000280788A1A00), frame # 0
-[2021.07.22-14.32.30:888][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028078873B00), frame # 0
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.07.22-14.32.30:915][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.07.22-14.32.30:915][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.07.22-14.32.30:915][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.07.22-14.32.30:939][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.07.22-14.32.30:939][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.07.22-14.32.31:027][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
-[2021.07.22-14.32.31:031][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.07.22-14.32.31:034][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.07.22-14.32.31:034][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.07.22-14.32.31:035][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.07.22-14.32.31:036][  0]LogInit: FAudioDevice initialized.
-[2021.07.22-14.32.31:037][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.07.22-14.32.31:156][  0]LogDerivedDataCache: Saved boot cache 0.12s 76MB C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.07.22-14.32.31:157][  0]LogInit: Texture streaming: Enabled
-[2021.07.22-14.32.31:175][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.07.22-14.32.31:175][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.07.22-14.32.31:177][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.07.22-14.32.31:217][  0]LogInit: Transaction tracking system initialized
-[2021.07.22-14.32.31:241][  0]BlueprintLog: New page: Editor Load
-[2021.07.22-14.32.31:313][  0]LocalizationService: Localization service is disabled
-[2021.07.22-14.32.31:401][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.07.22-14.32.31:402][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.07.22-14.32.31:524][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.07.22-14.32.31:524][  0]LogCook: Display: Mobile HDR setting 1
-[2021.07.22-14.32.31:659][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/' took 0.05s
-[2021.07.22-14.32.31:937][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.303
-[2021.07.22-14.32.31:937][  0]Cmd: MAP LOAD FILE="D:/Game/TkachenkoAA1507/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.07.22-14.32.31:938][  0]LogEditorServer: Warning: Can't find file 'D:/Game/TkachenkoAA1507/Content/StarterContent/Maps/Minimal_Default.umap'
-[2021.07.22-14.32.31:938][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.07.22-14.32.31:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,119ms to complete.
-[2021.07.22-14.32.31:938][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.000
-[2021.07.22-14.32.31:947][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.313
-[2021.07.22-14.32.32:485][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.32.32:494][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.32.32:501][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.32.32:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.32.32:776][  0]LogCollectionManager: Loaded 0 collections in 0.001276 seconds
-[2021.07.22-14.32.33:190][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Saved/Collections/' took 0.00s
-[2021.07.22-14.32.33:190][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/Developers/TimeSeeker/Collections/' took 0.00s
-[2021.07.22-14.32.33:190][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/Collections/' took 0.00s
-[2021.07.22-14.32.33:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3427 classes and 821 folders.
-[2021.07.22-14.32.33:295][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.07.22-14.32.35:256][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.07.22-14.32.35:309][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2021.07.22-14.32.36:053][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.07.22-14.32.36:061][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.07.22-14.32.36:086][  0]LogSlate: Took 0.015980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.07.22-14.32.36:326][  0]LogRenderer: Reallocating scene render targets to support 1208x540 Format 10 NumSamples 1 (Frame:1).
-[2021.07.22-14.32.36:588][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.07.22-14.32.36:588][  0]LogLoad: (Engine Initialization) Total time: 13.95 seconds
-[2021.07.22-14.32.36:588][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.07.22-14.32.36:644][  0]LogAssetRegistry: Asset discovery search completed in 8.6158 seconds
-[2021.07.22-14.32.36:648][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.07.22-14.32.36:666][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.07.22-14.32.36:769][  0]LogSlate: Took 0.023364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.07.22-14.33.00:110][614]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.07.22-14.33.01:439][614]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TkachenkoAA/Levels/main_level.main_level
-[2021.07.22-14.33.01:462][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2021.07.22-14.33.01:465][614]Cmd: MAP LOAD FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.07.22-14.33.01:465][614]LightingResults: New page: Lighting Build
-[2021.07.22-14.33.01:466][614]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 6 classes and 0 folders.
-[2021.07.22-14.33.01:467][614]LoadErrors: New page: Loading map: main_level.umap
-[2021.07.22-14.33.01:467][614]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.07.22-14.33.01:467][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.07.22-14.33.01:467][614]MapCheck: New page: Map Check
-[2021.07.22-14.33.01:467][614]LightingResults: New page: Lighting Build
-[2021.07.22-14.33.01:497][614]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000280788A1A00), frame # 1614
-[2021.07.22-14.33.01:497][614]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028078873B00), frame # 1614
-[2021.07.22-14.33.01:497][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
-[2021.07.22-14.33.01:612][614]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.07.22-14.33.01:612][614]LogAIModule: Creating AISystem for world main_level
-[2021.07.22-14.33.01:612][614]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002800443DA00), frame # 1614
-[2021.07.22-14.33.01:612][614]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028029C3E200), frame # 1614
-[2021.07.22-14.33.01:624][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
-[2021.07.22-14.33.01:642][614]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.07.22-14.33.01:642][614]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,078ms to complete.
-[2021.07.22-14.33.01:642][614]LogFileHelpers: Loading map 'main_level' took 0.178
-[2021.07.22-14.33.26:256][ 67]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.07.22-14.33.35:628][732]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.07.22-14.33.35:628][732]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.07.22-14.33.57:475][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
-[2021.07.22-14.33.58:790][ 63]LogSlate: Window 'Save Content' being destroyed
-[2021.07.22-14.33.58:929][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/main/MainControler" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainControler.uasset" SILENT=true
-[2021.07.22-14.33.58:983][ 63]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainControler62E664CC4F8747E65520CC8F5485C4FC.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainControler.uasset'
-[2021.07.22-14.33.59:371][ 63]AssetCheck: New page: Asset Save: MainControler
-[2021.07.22-14.33.59:371][ 63]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/main/MainControler.MainControler
-[2021.07.22-14.34.00:608][202]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
-[2021.07.22-14.34.01:334][202]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
-[2021.07.22-14.34.14:275][230]LogSlate: Window 'Class Defaults' being destroyed
-[2021.07.22-14.34.45:174][432]LogSlate: Window 'Find Results' being destroyed
-[2021.07.22-14.34.45:179][432]LogSlate: Window 'Find Results' being destroyed
-[2021.07.22-14.34.52:142][162]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.34.53:758][334]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.34.56:674][653]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.34.58:608][859]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.35.00:821][106]LogSlate: Window 'Class Defaults' being destroyed
-[2021.07.22-14.35.08:407][939]LogTabManager: Warning: Unable to insert tab 'Document'.
-[2021.07.22-14.35.08:407][939]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'Document'
-[2021.07.22-14.35.08:459][939]LogSlate: The tab "Document" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
-[2021.07.22-14.35.08:474][939]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.07.22-14.35.14:547][646]LogSlate: Window 'Event Graph' being destroyed
-[2021.07.22-14.36.30:509][194]LogSlate: Window 'Close Asset Editors?' being destroyed
-[2021.07.22-14.36.30:515][194]Message dialog closed, result: Yes, title: Close Asset Editors?, text: Are you sure you want to continue loading the selected layout profile?
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.07.22-15.04.50:697][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.07.22-15.04.50:698][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:698][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:704][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.22-15.04.50:704][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.22-15.04.50:705][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.22-15.04.50:706][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.22-15.04.50:706][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.07.22-15.04.50:706][  0]LogHAL: Display: Platform has ~ 24 GB [25633722368 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.07.22-15.04.50:706][  0]LogInit: Going up to parent DeviceProfile []
+[2021.07.22-15.04.50:706][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.22-15.04.50:706][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Scalability.ini]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.07.22-15.04.50:707][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.07.22-15.04.50:708][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.07.22-15.04.50:708][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.07.22-15.04.50:708][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.07.22-15.04.50:708][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.07.22-15.04.50:708][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.07.22-15.04.50:708][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Game/TkachenkoAA1507/Saved/Config/Windows/Engine.ini]
+[2021.07.22-15.04.50:708][  0]LogInit: Computer: DESKTOP-CEMMGDH
+[2021.07.22-15.04.50:708][  0]LogInit: User: TimeSeeker
+[2021.07.22-15.04.50:708][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.07.22-15.04.50:708][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.07.22-15.04.50:708][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2021.07.22-15.04.50:709][  0]LogMemory: Platform Memory Stats for Windows
+[2021.07.22-15.04.50:709][  0]LogMemory: Process Physical Memory: 115.06 MB used, 115.06 MB peak
+[2021.07.22-15.04.50:709][  0]LogMemory: Process Virtual Memory: 95.25 MB used, 95.25 MB peak
+[2021.07.22-15.04.50:709][  0]LogMemory: Physical Memory: 9445.20 MB used,  15001.02 MB free, 24446.22 MB total
+[2021.07.22-15.04.50:709][  0]LogMemory: Virtual Memory: 5128.54 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.07.22-15.04.50:716][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.07.22-15.04.50:786][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.07.22-15.04.50:788][  0]LogInit: Using OS detected language (ru-RU).
+[2021.07.22-15.04.50:788][  0]LogInit: Using OS detected locale (ru-RU).
+[2021.07.22-15.04.50:790][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2021.07.22-15.04.50:791][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2021.07.22-15.04.50:792][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2021.07.22-15.04.50:793][  0]LogInit: Setting process to per monitor DPI aware
+[2021.07.22-15.04.50:827][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.07.22-15.04.50:827][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.07.22-15.04.51:111][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.22-15.04.51:111][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.07.22-15.04.51:111][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.07.22-15.04.51:111][  0]LogD3D11RHI: D3D11 adapters:
+[2021.07.22-15.04.51:242][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2021.07.22-15.04.51:242][  0]LogD3D11RHI:       4018/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.07.22-15.04.51:286][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2021.07.22-15.04.51:286][  0]LogD3D11RHI:       128/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.07.22-15.04.51:290][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.07.22-15.04.51:290][  0]LogD3D11RHI:       0/0/12223 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.07.22-15.04.51:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.07.22-15.04.51:300][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.22-15.04.51:300][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.22-15.04.51:300][  0]LogWindows: EnumDisplayDevices:
+[2021.07.22-15.04.51:300][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2021.07.22-15.04.51:301][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2021.07.22-15.04.51:301][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2021.07.22-15.04.51:301][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2021.07.22-15.04.51:301][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.07.22-15.04.51:302][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.07.22-15.04.51:302][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.07.22-15.04.51:302][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.07.22-15.04.51:302][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2021.07.22-15.04.51:302][  0]LogD3D11RHI:   Driver Version: 466.27 (internal:27.21.14.6627, unified:466.27)
+[2021.07.22-15.04.51:302][  0]LogD3D11RHI:      Driver Date: 4-23-2021
+[2021.07.22-15.04.51:302][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2021.07.22-15.04.51:393][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.07.22-15.04.51:393][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.22-15.04.51:393][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.22-15.04.51:413][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.07.22-15.04.51:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.07.22-15.04.51:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.07.22-15.04.51:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.07.22-15.04.51:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.07.22-15.04.51:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.07.22-15.04.51:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.07.22-15.04.51:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.07.22-15.04.51:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.07.22-15.04.51:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.07.22-15.04.51:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.07.22-15.04.51:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.07.22-15.04.51:899][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.07.22-15.04.51:899][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.07.22-15.04.51:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.07.22-15.04.51:916][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.07.22-15.04.51:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.07.22-15.04.51:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.07.22-15.04.51:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.07.22-15.04.51:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.07.22-15.04.51:955][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.07.22-15.04.51:964][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.22-15.04.52:031][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (D:/Game/TkachenkoAA1507/Intermediate/Shaders/WorkingDirectory/11780/).
+[2021.07.22-15.04.52:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Time_Seeker/AppData/Local/Temp/UnrealShaderWorkingDir/0737FC9C4EE1DEEE8703ACA67992F2B9/'.
+[2021.07.22-15.04.52:031][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.07.22-15.04.52:032][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.07.22-15.04.52:032][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.07.22-15.04.52:925][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Game/TkachenkoAA1507/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Game/TkachenkoAA1507/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.22-15.04.52:989][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.07.22-15.04.53:002][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.07.22-15.04.53:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.22-15.04.53:002][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.07.22-15.04.53:003][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Time_Seeker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.07.22-15.04.53:003][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.07.22-15.04.53:003][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.07.22-15.04.53:063][  0]LogSlate: Using FreeType 2.10.0
+[2021.07.22-15.04.53:064][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.07.22-15.04.53:098][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.07.22-15.04.53:350][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.22-15.04.53:489][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.07.22-15.04.53:489][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.07.22-15.04.53:489][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.07.22-15.04.53:489][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.07.22-15.04.53:489][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.07.22-15.04.53:508][  0]LogNetVersion: TkachenkoAA1507 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3901960413)
+[2021.07.22-15.04.54:275][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EFFAEC3FC0), frame # 0
+[2021.07.22-15.04.54:275][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EFFAED3740), frame # 0
+[2021.07.22-15.04.54:277][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EFFAF48800), frame # 0
+[2021.07.22-15.04.54:331][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.045819 seconds
+[2021.07.22-15.04.54:337][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.07.22-15.04.54:337][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.07.22-15.04.54:337][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.07.22-15.04.54:724][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.07.22-15.04.54:730][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.07.22-15.04.54:818][  0]SourceControl: Source control is disabled
+[2021.07.22-15.04.55:325][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.22-15.04.55:326][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.22-15.04.55:569][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.22-15.04.55:592][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.22-15.04.55:592][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.22-15.04.55:646][  0]LogOcInput: OculusInput pre-init called
+[2021.07.22-15.04.55:656][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.07.22-15.04.55:656][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.07.22-15.04.55:718][  0]LogEngine: Initializing Engine...
+[2021.07.22-15.04.55:720][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.22-15.04.55:720][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.07.22-15.04.55:721][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.07.22-15.04.55:854][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.22-15.04.55:862][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.07.22-15.04.55:863][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EFFEEF9A00), frame # 0
+[2021.07.22-15.04.55:863][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EFFEEC7B00), frame # 0
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.22-15.04.55:888][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.22-15.04.55:888][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.22-15.04.55:888][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.22-15.04.55:916][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.22-15.04.55:916][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.22-15.04.55:994][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.22-15.04.55:996][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.22-15.04.56:000][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.22-15.04.56:000][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.22-15.04.56:001][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.22-15.04.56:002][  0]LogInit: FAudioDevice initialized.
+[2021.07.22-15.04.56:002][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.07.22-15.04.56:086][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/Time_Seeker/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.07.22-15.04.56:087][  0]LogInit: Texture streaming: Enabled
+[2021.07.22-15.04.56:105][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.07.22-15.04.56:105][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.07.22-15.04.56:107][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.07.22-15.04.56:148][  0]LogInit: Transaction tracking system initialized
+[2021.07.22-15.04.56:171][  0]BlueprintLog: New page: Editor Load
+[2021.07.22-15.04.56:245][  0]LocalizationService: Localization service is disabled
+[2021.07.22-15.04.56:327][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.22-15.04.56:328][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.22-15.04.56:400][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.07.22-15.04.56:400][  0]LogCook: Display: Mobile HDR setting 1
+[2021.07.22-15.04.56:538][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/' took 0.05s
+[2021.07.22-15.04.56:813][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.626
+[2021.07.22-15.04.56:813][  0]Cmd: MAP LOAD FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.22-15.04.56:813][  0]LightingResults: New page: Lighting Build
+[2021.07.22-15.04.56:814][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.04.56:814][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.04.56:814][  0]MapCheck: New page: Map Check
+[2021.07.22-15.04.56:814][  0]LightingResults: New page: Lighting Build
+[2021.07.22-15.04.56:822][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EFFEEF9A00), frame # 0
+[2021.07.22-15.04.56:822][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EFFEEC7B00), frame # 0
+[2021.07.22-15.04.56:823][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.07.22-15.04.57:017][  0]LogAIModule: Creating AISystem for world main_level
+[2021.07.22-15.04.57:018][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EF86C3BE00), frame # 0
+[2021.07.22-15.04.57:018][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EF86CC65C0), frame # 0
+[2021.07.22-15.04.57:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.22-15.04.57:046][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.07.22-15.04.57:047][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.22-15.04.57:047][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,096ms to complete.
+[2021.07.22-15.04.57:047][  0]LogFileHelpers: Loading map 'main_level' took 0.233
+[2021.07.22-15.04.57:049][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.861
+[2021.07.22-15.04.57:176][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.04.57:184][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.04.57:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.04.57:201][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.04.57:207][  0]LogCollectionManager: Loaded 0 collections in 0.001121 seconds
+[2021.07.22-15.04.57:223][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Saved/Collections/' took 0.00s
+[2021.07.22-15.04.57:223][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/Developers/TimeSeeker/Collections/' took 0.00s
+[2021.07.22-15.04.57:223][  0]LogFileCache: Scanning file cache for directory 'D:/Game/TkachenkoAA1507/Content/Collections/' took 0.00s
+[2021.07.22-15.04.57:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3427 classes and 821 folders.
+[2021.07.22-15.04.57:226][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.22-15.04.57:327][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.22-15.04.57:328][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.07.22-15.04.57:793][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.22-15.04.57:795][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.07.22-15.04.57:798][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.07.22-15.04.57:874][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.07.22-15.04.57:990][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.22-15.04.57:990][  0]LogLoad: (Engine Initialization) Total time: 9.80 seconds
+[2021.07.22-15.04.57:990][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.07.22-15.04.58:124][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.22-15.04.58:152][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.22-15.04.58:161][  1]LogAssetRegistry: Asset discovery search completed in 5.0623 seconds
+[2021.07.22-15.04.58:168][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.07.22-15.04.59:020][ 90]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.22-15.04.59:033][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.04.59:241][ 90]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.07.22-15.05.00:178][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
+[2021.07.22-15.05.13:849][353]LogSlate: Window 'MainCharacter' being destroyed
+[2021.07.22-15.05.15:880][589]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.07.22-15.05.18:054][820]LogSlate: Window 'Event Graph' being destroyed
+[2021.07.22-15.06.14:063][285]LogSlate: Window 'Event Graph' being destroyed
+[2021.07.22-15.06.15:933][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/main/MainGM" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainGM.uasset" SILENT=true
+[2021.07.22-15.06.15:941][488]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainGMBB10D5514EF7163960C53994E741CC79.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainGM.uasset'
+[2021.07.22-15.06.15:956][488]AssetCheck: New page: Asset Save: MainGM
+[2021.07.22-15.06.15:956][488]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
+[2021.07.22-15.06.19:201][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.07.22-15.06.19:226][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.07.22-15.06.19:246][841]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level47DF5F8A47DA6318C7E96CB2B136D92E.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap'
+[2021.07.22-15.06.19:359][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level_BuiltData" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset" SILENT=true
+[2021.07.22-15.06.19:371][841]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level_BuiltData53D6B15E4FF508B8E044B09C6584E1B1.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset'
+[2021.07.22-15.06.19:384][841]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.22-15.06.19:384][841]LogContentValidation: Display: Validating World /Game/TkachenkoAA/Levels/main_level.main_level
+[2021.07.22-15.06.19:384][841]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TkachenkoAA/Levels/main_level_BuiltData.main_level_BuiltData
+[2021.07.22-15.06.56:112][769]LogSlate: Window 'Movie Render Queue' being destroyed
+[2021.07.22-15.06.56:117][769]LogSlate: Window 'Movie Render Queue' being destroyed
+[2021.07.22-15.07.15:436][995]LogSlate: Window 'Class Viewer' being destroyed
+[2021.07.22-15.07.15:443][995]LogSlate: Window 'Class Viewer' being destroyed
+[2021.07.22-15.07.26:000][137]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.07.27:847][343]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.07.30:209][621]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.07.30:214][621]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.07.57:502][772]LogSlate: Window 'Tutorials' being destroyed
+[2021.07.22-15.07.57:506][772]LogSlate: Window 'Tutorials' being destroyed
+[2021.07.22-15.08.38:994][554]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2021.07.22-15.08.38:998][554]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2021.07.22-15.08.57:366][669]LogSlate: Window 'Debug Tools' being destroyed
+[2021.07.22-15.09.00:712][ 43]LogSlate: Window 'Debug Tools' being destroyed
+[2021.07.22-15.09.02:235][216]LogSlate: Window 'Debug Tools' being destroyed
+[2021.07.22-15.09.31:593][610]LogContentBrowser: Native class hierarchy updated for 'ScreenShotComparisonTools' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.07.22-15.09.31:670][610]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for D:/Game/TkachenkoAA1507/Saved/Automation/Comparisons. Error: Системе не удается найти указанный путь. (0x00000003)
+[2021.07.22-15.09.32:177][610]LogProfilerClient: Subscribe Session: 035F446341646E36470ED8B940EAAF91
+[2021.07.22-15.09.32:184][610]LogProfilerService: Subscribe Session: 035F446341646E36470ED8B940EAAF91, Instance: 81008A9D4DE5F31FE1ECF48C44D2BDC2
+[2021.07.22-15.09.34:490][611]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.07.22-15.09.34:504][612]LogSlate: Window 'Session Frontend' being destroyed
+[2021.07.22-15.09.34:518][612]LogSlate: Window 'Session Frontend' being destroyed
+[2021.07.22-15.09.39:967][189]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.09.39:971][189]LogSlate: Window 'ProjectLauncher' being destroyed
+[2021.07.22-15.10.34:427][613]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.22-15.10.34:427][613]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.22-15.10.57:139][983]BlueprintLog: New page: Compile MainCharacter
+[2021.07.22-15.10.57:351][983]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2021.07.22-15.10.57:927][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Characters/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Characters/MainCharacter.uasset" SILENT=true
+[2021.07.22-15.10.57:938][ 36]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter62C565CC43DFA7FDF4EB5C8EA6E690CE.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Characters/MainCharacter.uasset'
+[2021.07.22-15.10.57:957][ 36]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.22-15.10.57:957][ 36]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.10.59:733][204]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.22-15.10.59:745][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.22-15.10.59:745][204]PIE: New page: PIE session: main_level (22 июл. 2021 г., 21:10:59)
+[2021.07.22-15.10.59:746][204]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.07.22-15.10.59:748][204]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.07.22-15.10.59:748][204]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.22-15.10.59:751][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002893s)
+[2021.07.22-15.10.59:752][204]LogAIModule: Creating AISystem for world main_level
+[2021.07.22-15.10.59:752][204]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EF9A389200), frame # 38204
+[2021.07.22-15.10.59:752][204]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EFD97C60C0), frame # 38204
+[2021.07.22-15.10.59:752][204]LogPlayLevel: PIE: World Init took: (0.001564s)
+[2021.07.22-15.10.59:752][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.004660s)
+[2021.07.22-15.10.59:803][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.22-15.10.59:805][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.22-15.10.59:805][204]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.22-15.10.59:805][204]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.22-15.10.59:809][204]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.22-15.10.59:809][204]LogAudioMixer: Display: 1: FrontRight
+[2021.07.22-15.10.59:834][204]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.22-15.10.59:835][204]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.22-15.10.59:835][204]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.22-15.10.59:835][204]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.22-15.10.59:835][204]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.22-15.10.59:849][204]LogInit: FAudioDevice initialized.
+[2021.07.22-15.10.59:860][204]LogLoad: Game class is 'MainGM_C'
+[2021.07.22-15.10.59:862][204]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.22-18.10.59
+[2021.07.22-15.10.59:863][204]LogWorld: Bringing up level for play took: 0.001772
+[2021.07.22-15.10.59:863][204]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.07.22-15.10.59:866][204]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.07.22-15.10.59:867][204]PIE: Server logged in
+[2021.07.22-15.10.59:867][204]PIE: Play in editor total start time 0,123 seconds.
+[2021.07.22-15.10.59:869][204]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:227][205]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:236][206]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:245][207]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:255][208]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:262][209]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:272][210]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:279][211]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:287][212]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:295][213]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:305][214]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:312][215]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:322][216]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:330][217]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:340][218]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:347][219]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:359][220]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:366][221]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:374][222]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:383][223]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:391][224]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:400][225]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:409][226]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:417][227]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:427][228]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:435][229]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:444][230]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:452][231]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:460][232]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:469][233]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:476][234]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:485][235]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:494][236]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:501][237]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:510][238]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:518][239]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:526][240]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:535][241]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:543][242]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:551][243]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:560][244]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:568][245]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:576][246]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:584][247]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:593][248]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:601][249]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:609][250]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:618][251]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:627][252]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:635][253]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:643][254]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:651][255]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:660][256]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:668][257]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:676][258]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:684][259]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:693][260]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:701][261]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:709][262]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:718][263]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:726][264]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:734][265]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:743][266]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:751][267]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:759][268]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:768][269]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:776][270]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:785][271]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:793][272]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:801][273]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:809][274]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:818][275]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:826][276]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:834][277]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:843][278]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:851][279]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:860][280]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:868][281]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:877][282]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:885][283]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:893][284]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:902][285]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:910][286]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:918][287]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:927][288]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:935][289]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:944][290]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:952][291]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:961][292]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:969][293]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:977][294]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:985][295]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.00:994][296]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:002][297]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:010][298]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:018][299]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:027][300]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:035][301]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:043][302]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:053][303]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:060][304]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:068][305]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:078][306]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:086][307]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:094][308]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:102][309]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:111][310]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:119][311]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:128][312]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:136][313]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:144][314]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:152][315]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:160][316]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:168][317]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:176][318]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:184][319]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:193][320]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:201][321]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:210][322]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:218][323]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:226][324]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:235][325]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:243][326]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:252][327]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:260][328]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:268][329]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:276][330]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:285][331]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:293][332]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:302][333]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:310][334]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:319][335]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:328][336]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:335][337]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:344][338]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:352][339]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:360][340]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:369][341]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:377][342]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:386][343]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:394][344]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:402][345]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:411][346]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:420][347]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:428][348]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:436][349]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:444][350]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:453][351]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:460][352]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:469][353]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:477][354]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:485][355]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:494][356]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:503][357]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:511][358]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:519][359]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:528][360]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:537][361]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:545][362]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:555][363]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:561][364]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:570][365]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:578][366]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:586][367]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:595][368]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:604][369]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:612][370]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:620][371]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:628][372]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:637][373]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:645][374]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:655][375]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:662][376]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:672][377]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:678][378]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:687][379]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:695][380]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:704][381]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:712][382]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:720][383]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:729][384]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:737][385]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:745][386]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:756][387]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:762][388]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:770][389]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:778][390]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:787][391]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:795][392]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:803][393]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:811][394]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:820][395]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:828][396]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:837][397]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:845][398]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2021.07.22-15.11.01:873][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.11.01:873][398]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.22-15.11.01:874][398]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.11.01:874][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.11.01:880][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.22-15.11.01:885][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.11.01:930][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.11.01:944][398]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EFD97C60C0), frame # 38398
+[2021.07.22-15.11.01:944][398]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EF9A389200), frame # 38398
+[2021.07.22-15.11.01:975][398]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2021.07.22-15.11.02:002][399]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.07.22-15.11.49:684][183]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.11.49:684][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.11.51:664][382]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.11.51:987][382]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.07.22-15.11.52:041][382]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.07.22-15.11.55:913][832]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.11.55:917][832]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.12.18:785][305]LogSlate: Window 'Close Asset Editors?' being destroyed
+[2021.07.22-15.12.18:790][305]Message dialog closed, result: Yes, title: Close Asset Editors?, text: Are you sure you want to continue loading the selected layout profile?
 
 If "Yes", all open Asset Editors will be closed. Any unsaved changes in those will also be lost.
-Open Asset Editors: MainGM.
+Open Asset Editors: MainCharacter, MainGM.
 
 If "No", you can manually reload the layout from the "User Layouts" section later.
-[2021.07.22-14.36.30:530][194]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2021.07.22-14.36.30:530][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.07.22-14.36.30:605][194]LogSlate: Window 'TkachenkoAA1507 - Unreal Editor' being destroyed
-[2021.07.22-14.36.30:605][194]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.07.22-14.36.30:753][194]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
-[2021.07.22-14.36.30:775][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SourceControl
-[2021.07.22-14.36.30:776][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
-[2021.07.22-14.36.30:776][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton
-[2021.07.22-14.36.30:776][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingQuality
-[2021.07.22-14.36.30:776][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingDensity
-[2021.07.22-14.36.30:776][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingResolution
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.EditorModes
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.CompileComboButton
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
-[2021.07.22-14.36.30:777][194]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar
-[2021.07.22-14.36.30:797][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.36.30:808][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.36.30:820][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.36.30:826][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.07.22-14.36.30:892][194]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:4332).
-[2021.07.22-14.36.33:606][490]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
-[2021.07.22-14.36.44:675][726]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.36.46:170][889]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.37.00:076][334]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.37.01:844][523]LogSlate: Window 'My Blueprint' being destroyed
-[2021.07.22-14.37.24:737][158]LogSlate: Window 'Event Graph' being destroyed
-[2021.07.22-14.37.38:685][718]LogSlate: Window 'Find Results' being destroyed
-[2021.07.22-14.37.38:689][718]LogSlate: Window 'Find Results' being destroyed
-[2021.07.22-14.38.32:636][640]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.07.22-14.39.17:925][612]LogSlate: Window 'Pick Parent Class' being destroyed
-[2021.07.22-14.39.41:036][523]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainControler.MainControler
-[2021.07.22-14.39.41:492][524]LogRenderer: Reallocating scene render targets to support 1208x760 Format 10 NumSamples 1 (Frame:1).
-[2021.07.22-14.39.50:792][289]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2021.07.22-14.39.50:792][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.07.22-14.39.56:080][706]LogSlate: Window 'MainControler' being destroyed
-[2021.07.22-14.39.56:086][706]LogSlate: Window 'MainControler' being destroyed
-[2021.07.22-14.39.56:093][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2021.07.22-14.39.56:093][706]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2021.07.22-14.39.56:093][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.07.22-14.39.57:653][879]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
-[2021.07.22-14.39.57:919][879]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
-[2021.07.22-14.39.57:952][879]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
-[2021.07.22-14.40.01:001][240]LogSlate: Window 'CompilerResults' being destroyed
-[2021.07.22-14.40.01:006][240]LogSlate: Window 'CompilerResults' being destroyed
-[2021.07.22-14.40.09:928][245]LogSlate: Window 'Event Graph' being destroyed
-[2021.07.22-14.40.20:952][540]LogCollisionAnalyzer: Opening CollisionAnalyzer...
-[2021.07.22-14.40.22:716][748]LogSlate: Window 'Collision Analyzer' being destroyed
-[2021.07.22-14.40.22:720][748]LogSlate: Window 'Collision Analyzer' being destroyed
-[2021.07.22-14.41.00:100][356]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2021.07.22-14.41.08:682][277]BlueprintLog: New page: Compile MainGM
-[2021.07.22-14.41.08:738][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2021.07.22-14.41.09:418][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/main/MainGM" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainGM.uasset" SILENT=true
-[2021.07.22-14.41.09:456][338]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainGM266633884AE811D1B0D3A9A9A154C104.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainGM.uasset'
-[2021.07.22-14.41.09:470][338]AssetCheck: New page: Asset Save: MainGM
-[2021.07.22-14.41.09:470][338]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
-[2021.07.22-14.41.18:673][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2021.07.22-14.41.18:707][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
-[2021.07.22-14.41.18:727][347]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_levelA3782E0042181E2E2D45C2A23B365353.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap'
-[2021.07.22-14.41.18:846][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level_BuiltData" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset" SILENT=true
-[2021.07.22-14.41.18:859][347]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level_BuiltData53FF5A8744B56C115EE8AC8A339F548D.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset'
-[2021.07.22-14.41.18:872][347]AssetCheck: New page: Asset Save: multiple assets
-[2021.07.22-14.41.18:872][347]LogContentValidation: Display: Validating World /Game/TkachenkoAA/Levels/main_level.main_level
-[2021.07.22-14.41.18:872][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TkachenkoAA/Levels/main_level_BuiltData.main_level_BuiltData
-[2021.07.22-14.41.20:878][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
-[2021.07.22-14.41.22:070][575]LogSlate: Window 'Save Content' being destroyed
-[2021.07.22-14.41.22:201][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Characters/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Characters/MainCharacter.uasset" SILENT=true
-[2021.07.22-14.41.22:208][575]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacterA05F5C3041F51D384B2FA6BC57A88990.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Characters/MainCharacter.uasset'
-[2021.07.22-14.41.22:443][575]AssetCheck: New page: Asset Save: MainCharacter
-[2021.07.22-14.41.22:443][575]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.12.18:796][305]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.12.18:796][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.12.18:850][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.07.22-15.12.18:850][305]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.12.18:850][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.12.18:911][305]LogSlate: Window 'TkachenkoAA1507 - Unreal Editor' being destroyed
+[2021.07.22-15.12.19:010][305]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2021.07.22-15.12.19:010][305]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2021.07.22-15.12.19:010][305]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2021.07.22-15.12.19:010][305]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SourceControl
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingQuality
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingDensity
+[2021.07.22-15.12.19:011][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingResolution
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.EditorModes
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.CompileComboButton
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
+[2021.07.22-15.12.19:012][305]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar
+[2021.07.22-15.12.19:034][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.12.19:045][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.12.19:056][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.12.19:064][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.12.20:842][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.12.21:174][480]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.07.22-15.12.21:226][480]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.07.22-15.12.25:183][938]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.12.25:187][938]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.12.42:829][895]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TkachenkoAA/material/Fire.Fire
+[2021.07.22-15.12.42:842][895]LogMaterial: Display: Missing cached shader map for material Fire, compiling. 
+[2021.07.22-15.12.43:358][895]LogMaterial: Display: Missing cached shader map for material Fire, compiling. 
+[2021.07.22-15.12.43:369][895]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2021.07.22-15.12.43:369][895]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2021.07.22-15.12.43:369][895]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2021.07.22-15.12.43:370][895]LogMaterial: Display: Missing cached shader map for material Fire, compiling. 
+[2021.07.22-15.12.43:381][895]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_1, compiling. 
+[2021.07.22-15.12.43:384][895]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.07.22-15.12.43:387][895]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2021.07.22-15.12.43:562][901]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.07.22-15.12.44:517][ 10]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2021.07.22-15.12.44:925][ 51]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2021.07.22-15.12.45:661][136]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2021.07.22-15.12.45:862][157]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2021.07.22-15.12.46:471][220]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2021.07.22-15.12.46:990][276]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2021.07.22-15.12.47:188][291]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2021.07.22-15.12.47:575][336]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2021.07.22-15.12.47:575][336]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2021.07.22-15.12.48:472][427]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2021.07.22-15.12.48:520][431]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2021.07.22-15.12.49:054][479]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2021.07.22-15.12.49:068][480]MaterialEditorStats: Base pass shader without light map: 56 instructions
+[2021.07.22-15.12.49:068][480]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2021.07.22-15.12.49:068][480]MaterialEditorStats: Texture samplers: 4/16
+[2021.07.22-15.12.49:068][480]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2021.07.22-15.12.49:689][550]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.07.22-15.12.49:839][566]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.07.22-15.12.50:168][600]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2021.07.22-15.12.50:576][644]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2021.07.22-15.12.50:998][691]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2021.07.22-15.12.51:324][726]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2021.07.22-15.12.51:558][752]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.07.22-15.12.52:023][803]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.07.22-15.12.56:993][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/main/MainGM.MainGM
+[2021.07.22-15.12.59:658][611]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.12.59:658][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.13.00:509][701]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.13.00:509][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.13.02:692][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.07.22-15.13.02:692][947]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.13.02:692][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.13.06:328][280]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Interaction/fakel1.fakel1
+[2021.07.22-15.13.20:702][133]LogSlate: Window 'Save Layout As' being destroyed
+[2021.07.22-15.13.27:147][717]LogSlate: Window 'fakel1' being destroyed
+[2021.07.22-15.13.27:152][717]LogSlate: Window 'fakel1' being destroyed
+[2021.07.22-15.13.27:182][717]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.13.27:182][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.13.34:958][551]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.13.35:227][551]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.07.22-15.13.35:275][551]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.07.22-15.13.37:108][759]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.13.37:114][759]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.13.44:150][415]LogSlate: Window 'Close Asset Editors?' being destroyed
+[2021.07.22-15.13.44:153][415]Message dialog closed, result: Yes, title: Close Asset Editors?, text: Are you sure you want to continue loading the selected layout profile?
+
+If "Yes", all open Asset Editors will be closed. Any unsaved changes in those will also be lost.
+Open Asset Editors: MainCharacter.
+
+If "No", you can manually reload the layout from the "User Layouts" section later.
+[2021.07.22-15.13.44:166][415]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.13.44:166][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.13.44:230][415]LogSlate: Window 'TkachenkoAA1507 - Unreal Editor' being destroyed
+[2021.07.22-15.13.44:231][415]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.22-15.13.44:270][415]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SourceControl
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingQuality
+[2021.07.22-15.13.44:292][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingDensity
+[2021.07.22-15.13.44:293][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo.LightingResolution
+[2021.07.22-15.13.44:293][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.BuildComboButton.LightingInfo
+[2021.07.22-15.13.44:293][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.EditorModes
+[2021.07.22-15.13.44:293][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.CompileComboButton
+[2021.07.22-15.13.44:293][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
+[2021.07.22-15.13.44:294][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
+[2021.07.22-15.13.44:294][415]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar
+[2021.07.22-15.13.44:316][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.13.44:324][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.13.44:331][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.13.44:339][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.22-15.13.46:458][641]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.13.46:726][641]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.07.22-15.13.46:774][641]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.07.22-15.13.48:323][817]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.13.48:327][817]LogSlate: Window 'CompilerResults' being destroyed
+[2021.07.22-15.14.09:474][176]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Interaction/fakel1.fakel1
+[2021.07.22-15.14.15:006][680]LogSlate: Window 'fakel1' being destroyed
+[2021.07.22-15.14.28:106][161]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.07.22-15.14.28:106][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.22-15.14.33:944][772]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.07.22-15.14.43:020][772]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.22-15.14.44:240][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.07.22-15.14.44:941][908]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.22-15.14.46:203][908]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TkachenkoAA/Characters/MainCharacter.MainCharacter
+[2021.07.22-15.14.47:797][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.07.22-15.14.47:821][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.07.22-15.14.47:841][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.07.22-15.14.48:098][908]SourceControl: Error: Updated 1 path from the index
+[2021.07.22-15.14.48:253][908]SourceControl: rm 'Content/TkachenkoAA/Characters/MainCharacter.uasset'
+[2021.07.22-15.15.09:332][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.07.22-15.15.10:397][351]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.22-15.15.10:594][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.07.22-15.15.10:623][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.07.22-15.15.10:643][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.07.22-15.15.10:896][351]SourceControl: Error: Updated 1 path from the index
+[2021.07.22-15.15.11:058][351]SourceControl: rm 'Content/TkachenkoAA/main/MainGM.uasset'
+[2021.07.22-15.15.12:174][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.07.22-15.15.13:402][481]LogSlate: Window 'Delete Assets' being destroyed
+[2021.07.22-15.15.13:591][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.07.22-15.15.13:616][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.07.22-15.15.13:637][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.07.22-15.15.13:886][481]SourceControl: Error: Updated 0 paths from the index
+[2021.07.22-15.15.14:035][481]SourceControl: rm 'Content/TkachenkoAA/main/MainControler.uasset'
+[2021.07.22-15.15.34:124][390]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.07.22-15.15.39:974][ 38]SourceControl: Error: fatal: pathspec 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/main/MainGM.uasset' did not match any files
+[2021.07.22-15.15.44:499][ 38]LogSlate: Window 'Message' being destroyed
+[2021.07.22-15.15.44:503][ 38]Message dialog closed, result: Ok, title: Message, text: Failed to revert package which was marked for delete.
+[2021.07.22-15.15.49:736][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.07.22-15.15.51:723][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.07.22-15.15.51:744][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.07.22-15.15.51:762][863]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level0A9A2DB942E4DAF71358019D2EF19185.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap'
+[2021.07.22-15.15.51:894][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level_BuiltData" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset" SILENT=true
+[2021.07.22-15.15.51:905][863]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level_BuiltData54E2F29346C56A2CCD4EBA89C368F3C5.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset'
+[2021.07.22-15.15.51:920][863]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.22-15.15.51:920][863]LogContentValidation: Display: Validating World /Game/TkachenkoAA/Levels/main_level.main_level
+[2021.07.22-15.15.51:920][863]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TkachenkoAA/Levels/main_level_BuiltData.main_level_BuiltData
