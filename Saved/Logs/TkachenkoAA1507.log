@@ -4335,3 +4335,499 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.24-16.34.53:429][765]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2021.07.24-16.34.53:429][765]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2021.07.24-16.35.08:465][509]LogSlate: Window 'Color Picker' being destroyed
+[2021.07.24-16.35.36:387][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.07.24-16.35.36:391][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TkachenkoAA/Levels/main_level' took 0.041
+[2021.07.24-16.35.36:391][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TkachenkoAA/Character/MainCharacter] ([1] browsable assets)...
+[2021.07.24-16.35.36:417][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter]
+[2021.07.24-16.35.36:417][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/TkachenkoAA/Character/MainCharacter]
+[2021.07.24-16.35.36:417][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Character/MainCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.07.24-16.35.36:441][913]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter_Auto1EEBB2DF949E6BC78E3F0F58415AE9555.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Character/MainCharacter_Auto1.uasset'
+[2021.07.24-16.35.36:443][913]LogFileHelpers: Auto-saving content packages took 0.052
+[2021.07.24-16.35.46:379][943]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.35.46:379][943]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.39.31:142][ 99]BlueprintLog: New page: Compile MainCharacter
+[2021.07.24-16.39.31:215][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2021.07.24-16.39.31:913][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.39.31:951][157]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter975AC49448569EF8A833B9BDDD764201.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.39.31:974][157]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.24-16.39.31:974][157]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
+[2021.07.24-16.39.33:967][366]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.39.33:980][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.24-16.39.33:980][366]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:39:33)
+[2021.07.24-16.39.33:980][366]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.39.33:999][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018833s)
+[2021.07.24-16.39.34:000][366]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.39.34:000][366]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000185D49CB600), frame # 191366
+[2021.07.24-16.39.34:000][366]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018601AA7D80), frame # 191366
+[2021.07.24-16.39.34:000][366]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2021.07.24-16.39.34:000][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.020098s)
+[2021.07.24-16.39.34:030][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.39.34:032][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.39.34:032][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.39.34:033][366]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.39.34:033][366]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.39.34:039][366]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.39.34:039][366]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.39.34:064][366]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.39.34:064][366]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.39.34:064][366]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.39.34:064][366]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.39.34:065][366]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.39.34:078][366]LogInit: FAudioDevice initialized.
+[2021.07.24-16.39.34:091][366]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.39.34:095][366]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.39.34
+[2021.07.24-16.39.34:096][366]LogWorld: Bringing up level for play took: 0.003365
+[2021.07.24-16.39.34:096][366]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.07.24-16.39.34:099][366]PIE: Server logged in
+[2021.07.24-16.39.34:100][366]PIE: Play in editor total start time 0,122 seconds.
+[2021.07.24-16.39.44:763][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.39.44:763][621]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.39.44:763][621]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.39.44:764][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.39.44:770][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.39.44:775][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.39.44:826][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.39.44:827][621]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018601AA7D80), frame # 192621
+[2021.07.24-16.39.44:827][621]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000185D49CB600), frame # 192621
+[2021.07.24-16.39.44:830][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.07.24-16.39.44:862][622]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.07.24-16.40.03:171][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.40.03:194][652]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacterCFE105DA48B7DF8A97B5E5A4958D6554.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.40.03:216][652]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.24-16.40.03:217][652]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
+[2021.07.24-16.40.03:767][715]BlueprintLog: New page: Compile MainCharacter
+[2021.07.24-16.40.03:834][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.07.24-16.40.42:094][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.40.42:118][ 90]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter930B495F432E5150E6155385E2F49EA2.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.40.42:143][ 90]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.24-16.40.42:143][ 90]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
+[2021.07.24-16.40.43:613][226]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.40.43:624][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.24-16.40.43:624][226]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:40:43)
+[2021.07.24-16.40.43:624][226]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.40.43:643][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018479s)
+[2021.07.24-16.40.43:644][226]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.40.43:644][226]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001855D53F400), frame # 198226
+[2021.07.24-16.40.43:644][226]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001857B624680), frame # 198226
+[2021.07.24-16.40.43:644][226]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2021.07.24-16.40.43:644][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.019588s)
+[2021.07.24-16.40.43:674][226]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.40.43:677][226]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.40.43:677][226]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.40.43:678][226]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.40.43:678][226]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.40.43:681][226]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.40.43:681][226]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.40.43:705][226]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.40.43:705][226]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.40.43:705][226]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.40.43:705][226]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.40.43:705][226]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.40.43:719][226]LogInit: FAudioDevice initialized.
+[2021.07.24-16.40.43:731][226]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.40.43:734][226]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.40.43
+[2021.07.24-16.40.43:734][226]LogWorld: Bringing up level for play took: 0.002524
+[2021.07.24-16.40.43:735][226]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.07.24-16.40.43:738][226]PIE: Server logged in
+[2021.07.24-16.40.43:739][226]PIE: Play in editor total start time 0,116 seconds.
+[2021.07.24-16.41.14:992][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.41.14:992][896]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.41.14:992][896]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.41.14:993][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.41.14:998][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.41.15:003][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.41.15:052][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.41.15:053][896]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001857B624680), frame # 201896
+[2021.07.24-16.41.15:053][896]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001855D53F400), frame # 201896
+[2021.07.24-16.41.15:056][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.07.24-16.41.15:087][897]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.07.24-16.42.39:620][608]BlueprintLog: New page: Compile MainCharacter
+[2021.07.24-16.42.39:676][608]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.07.24-16.42.40:275][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.42.40:297][655]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacterFE54AC2D4CDFA66F4707AD8233A612DC.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.42.40:320][655]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.24-16.42.40:320][655]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
+[2021.07.24-16.42.42:681][905]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.42.42:692][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.24-16.42.42:692][905]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:42:42)
+[2021.07.24-16.42.42:731][905]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.42.42:786][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055050s)
+[2021.07.24-16.42.42:788][905]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.42.42:788][905]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001858A12B400), frame # 211905
+[2021.07.24-16.42.42:789][905]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018529DC7380), frame # 211905
+[2021.07.24-16.42.42:789][905]LogPlayLevel: PIE: World Init took: (0.002304s)
+[2021.07.24-16.42.42:789][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.057610s)
+[2021.07.24-16.42.42:822][905]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.42.42:825][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.42.42:825][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.42.42:826][905]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.42.42:826][905]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.42.42:830][905]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.42.42:830][905]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.42.42:856][905]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.42.42:856][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.42.42:856][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.42.42:856][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.42.42:857][905]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.42.42:871][905]LogInit: FAudioDevice initialized.
+[2021.07.24-16.42.42:883][905]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.42.42:887][905]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.42.42
+[2021.07.24-16.42.42:887][905]LogWorld: Bringing up level for play took: 0.002446
+[2021.07.24-16.42.42:887][905]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.07.24-16.42.42:891][905]PIE: Server logged in
+[2021.07.24-16.42.42:892][905]PIE: Play in editor total start time 0,201 seconds.
+[2021.07.24-16.42.49:953][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.42.49:953][740]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.42.49:953][740]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.42.49:954][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.42.49:963][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.42.49:968][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.42.50:014][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.42.50:015][740]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018529DC7380), frame # 212740
+[2021.07.24-16.42.50:015][740]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001858A12B400), frame # 212740
+[2021.07.24-16.42.50:018][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.07.24-16.42.50:046][741]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.07.24-16.43.35:936][ 36]BlueprintLog: New page: Compile MainCharacter
+[2021.07.24-16.43.35:995][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.07.24-16.43.36:524][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.43.36:545][ 74]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter5885A2314137A6D2A09384B0D38F4ED3.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.43.36:567][ 74]AssetCheck: New page: Asset Save: MainCharacter
+[2021.07.24-16.43.36:567][ 74]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
+[2021.07.24-16.43.39:236][357]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.43.39:247][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.24-16.43.39:247][357]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:43:39)
+[2021.07.24-16.43.39:247][357]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.43.39:266][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018158s)
+[2021.07.24-16.43.39:267][357]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.43.39:267][357]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000185EBC38600), frame # 218357
+[2021.07.24-16.43.39:267][357]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018559750F40), frame # 218357
+[2021.07.24-16.43.39:267][357]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2021.07.24-16.43.39:267][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.019855s)
+[2021.07.24-16.43.39:296][357]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.43.39:298][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.43.39:298][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.43.39:299][357]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.43.39:299][357]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.43.39:303][357]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.43.39:303][357]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.43.39:327][357]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.43.39:327][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.43.39:328][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.43.39:328][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.43.39:328][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.43.39:341][357]LogInit: FAudioDevice initialized.
+[2021.07.24-16.43.39:350][357]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.43.39:353][357]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.43.39
+[2021.07.24-16.43.39:353][357]LogWorld: Bringing up level for play took: 0.002817
+[2021.07.24-16.43.39:353][357]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.07.24-16.43.39:357][357]PIE: Server logged in
+[2021.07.24-16.43.39:358][357]PIE: Play in editor total start time 0,111 seconds.
+[2021.07.24-16.43.54:462][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.43.54:462][157]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.43.54:462][157]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.43.54:464][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.43.54:476][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.43.54:486][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.43.54:562][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.43.54:563][157]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018559750F40), frame # 220157
+[2021.07.24-16.43.54:563][157]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000185EBC38600), frame # 220157
+[2021.07.24-16.43.54:566][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.07.24-16.43.54:593][158]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.07.24-16.44.35:004][768]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.44.35:004][768]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.45.53:435][183]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.45.53:436][183]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.07.24-16.46.17:604][591]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.47.05:064][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Medic" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset" SILENT=true
+[2021.07.24-16.47.05:076][165]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/Medic99191673413A068BFD05199F9FCFB89C.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset'
+[2021.07.24-16.47.05:300][165]AssetCheck: New page: Asset Save: Medic
+[2021.07.24-16.47.05:300][165]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.47.05:424][177]BlueprintLog: New page: Compile Medic
+[2021.07.24-16.47.05:493][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.07.24-16.47.06:083][240]BlueprintLog: New page: Compile Medic
+[2021.07.24-16.47.06:139][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.07.24-16.47.09:737][621]LogSlate: Window 'Medic' being destroyed
+[2021.07.24-16.47.09:741][621]LogSlate: Window 'Medic' being destroyed
+[2021.07.24-16.47.09:781][621]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.47.09:781][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.47.17:884][395]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.47.17:894][395]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.07.24-16.47.17:897][395]LogPlayLevel: [PlayLevel] Compiling MainCharacter before play...
+[2021.07.24-16.47.17:898][395]LogPlayLevel: [PlayLevel]   Compiling Medic as a dependent...
+[2021.07.24-16.47.17:898][395]LogPlayLevel: [PlayLevel]   Compiling Scout as a dependent...
+[2021.07.24-16.47.17:898][395]LogPlayLevel: [PlayLevel]   Compiling Warrior as a dependent...
+[2021.07.24-16.47.18:048][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.07.24-16.47.18:052][395]LogPlayLevel: PlayLevel: Blueprint regeneration took 158 ms (4 blueprints)
+[2021.07.24-16.47.18:053][395]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:47:18)
+[2021.07.24-16.47.18:081][395]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.47.18:100][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019182s)
+[2021.07.24-16.47.18:101][395]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.47.18:101][395]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018629B30200), frame # 239395
+[2021.07.24-16.47.18:102][395]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000185CCE3E840), frame # 239395
+[2021.07.24-16.47.18:102][395]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2021.07.24-16.47.18:102][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.020475s)
+[2021.07.24-16.47.18:131][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.47.18:132][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.47.18:132][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.47.18:133][395]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.47.18:133][395]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.47.18:137][395]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.47.18:137][395]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.47.18:164][395]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.47.18:164][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.47.18:164][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.47.18:164][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.47.18:165][395]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.47.18:178][395]LogInit: FAudioDevice initialized.
+[2021.07.24-16.47.18:189][395]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.47.18:192][395]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.47.18
+[2021.07.24-16.47.18:211][395]LogWorld: Bringing up level for play took: 0.021601
+[2021.07.24-16.47.18:211][395]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.07.24-16.47.18:215][395]PIE: Server logged in
+[2021.07.24-16.47.18:216][395]PIE: Play in editor total start time 0,323 seconds.
+[2021.07.24-16.47.22:632][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.47.22:632][836]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.47.22:632][836]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.47.22:633][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.47.22:638][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.47.22:642][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.47.22:669][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.47.22:687][836]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000185CCE3E840), frame # 239836
+[2021.07.24-16.47.22:687][836]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018629B30200), frame # 239836
+[2021.07.24-16.47.22:690][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.07.24-16.47.22:724][837]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.07.24-16.47.23:473][917]LogEditorViewport: Clicking on Actor (LMB): Medic_C (Medic)
+[2021.07.24-16.47.26:622][ 98]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.47.29:323][255]LogSlate: Window 'Medic' being destroyed
+[2021.07.24-16.47.29:338][255]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.47.29:339][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.47.29:402][255]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.48.14:333][515]LogMaterial: Display: Material /Game/Download/StarterContent/Materials/M_Water_Lake.M_Water_Lake needed to have new flag set bUsedWithSkeletalMesh !
+[2021.07.24-16.48.14:334][515]LogMaterial: Display: Missing cached shader map for material M_Water_Lake, compiling. 
+[2021.07.24-16.48.14:371][515]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
+[2021.07.24-16.48.14:372][515]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2021.07.24-16.48.14:372][515]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2021.07.24-16.48.19:575][764]LogMaterial: Display: Material /Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished needed to have new flag set bUsedWithSkeletalMesh !
+[2021.07.24-16.48.19:576][764]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2021.07.24-16.48.28:433][135]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 66
+[2021.07.24-16.48.31:415][250]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 56
+[2021.07.24-16.48.36:401][514]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
+[2021.07.24-16.48.42:296][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Medic" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset" SILENT=true
+[2021.07.24-16.48.42:313][880]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/Medic57C637CB4ABCFB8FA0394294F94B22B1.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset'
+[2021.07.24-16.48.42:329][880]AssetCheck: New page: Asset Save: Medic
+[2021.07.24-16.48.42:329][880]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.48.42:780][905]BlueprintLog: New page: Compile Medic
+[2021.07.24-16.48.42:957][905]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.07.24-16.48.48:922][262]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 36
+[2021.07.24-16.48.52:027][443]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2021.07.24-16.48.52:513][471]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2021.07.24-16.49.00:421][937]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2021.07.24-16.49.02:192][ 38]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2021.07.24-16.49.04:223][155]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.07.24-16.49.06:078][267]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.07.24-16.49.08:005][399]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.07.24-16.49.20:412][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Medic" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset" SILENT=true
+[2021.07.24-16.49.20:428][248]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/Medic1A5F04C545B9F94F1E4AF084054E28AA.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Medic.uasset'
+[2021.07.24-16.49.20:442][248]AssetCheck: New page: Asset Save: Medic
+[2021.07.24-16.49.20:442][248]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Medic.Medic
+[2021.07.24-16.49.22:583][387]LogRenderer: Reallocating scene render targets to support 1424x896 Format 10 NumSamples 1 (Frame:4201).
+[2021.07.24-16.49.22:943][419]LogSlate: Window 'Medic' being destroyed
+[2021.07.24-16.49.32:501][231]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Character/Scout.Scout
+[2021.07.24-16.49.58:028][960]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithSkeletalMesh !
+[2021.07.24-16.49.58:029][960]LogMaterial: Display: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2021.07.24-16.49.58:081][960]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
+[2021.07.24-16.49.58:081][960]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2021.07.24-16.49.58:081][960]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2021.07.24-16.50.08:387][758]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2021.07.24-16.50.09:872][918]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2021.07.24-16.50.13:868][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2021.07.24-16.50.16:308][635]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.07.24-16.50.16:833][696]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.07.24-16.50.17:238][740]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.07.24-16.51.06:313][374]LogRenderer: Reallocating scene render targets to support 1424x900 Format 10 NumSamples 1 (Frame:1).
+[2021.07.24-16.53.20:918][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Scout" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Scout.uasset" SILENT=true
+[2021.07.24-16.53.20:931][555]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/ScoutBC3216484BBD69777EFBFDB710D8A83D.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Scout.uasset'
+[2021.07.24-16.53.21:187][555]AssetCheck: New page: Asset Save: Scout
+[2021.07.24-16.53.21:187][555]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Scout.Scout
+[2021.07.24-16.53.22:328][684]BlueprintLog: New page: Compile Scout
+[2021.07.24-16.53.22:396][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.07.24-16.53.25:106][982]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.53.25:106][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.54.04:708][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Scout" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Scout.uasset" SILENT=true
+[2021.07.24-16.54.04:731][  6]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/ScoutB5A51DDD4000588B1C21A9913F54A977.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Scout.uasset'
+[2021.07.24-16.54.04:744][  6]AssetCheck: New page: Asset Save: Scout
+[2021.07.24-16.54.04:744][  6]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Scout.Scout
+[2021.07.24-16.54.05:057][ 41]BlueprintLog: New page: Compile Scout
+[2021.07.24-16.54.05:206][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.07.24-16.54.15:545][915]LogEditorViewport: Clicking on Actor (LMB): Warrior_C (Warrior)
+[2021.07.24-16.54.23:186][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TkachenkoAA/Character/Warrior.Warrior
+[2021.07.24-16.54.52:958][700]LogMaterial: Display: Missing cached shader map for material M_Opaque_Static_Lit_Emis_PanMaster, compiling. 
+[2021.07.24-16.54.54:568][700]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.07.24-16.54.54:568][700]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2021.07.24-16.54.54:568][700]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2021.07.24-16.54.54:568][700]LogTexture: Display: Building textures: T_Clouds_Tile_04 (AutoDXT, 1024X1024)
+[2021.07.24-16.54.54:568][700]LogMaterial: Display: Material /Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster.M_Opaque_Static_Lit_Emis_PanMaster needed to have new flag set bUsedWithSkeletalMesh !
+[2021.07.24-16.54.54:570][700]LogMaterial: Display: Missing cached shader map for material M_Opaque_Static_Lit_Emis_PanMaster, compiling. 
+[2021.07.24-16.54.55:727][778]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 48
+[2021.07.24-16.55.01:922][298]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine needed to have new flag set bUsedWithSkeletalMesh !
+[2021.07.24-16.55.01:923][298]LogMaterial: Display: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2021.07.24-16.55.03:410][391]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 86
+[2021.07.24-16.55.05:409][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/Warrior" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Warrior.uasset" SILENT=true
+[2021.07.24-16.55.05:422][571]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/WarriorA3EC4B624EC437D068F2AF996C9E6CB1.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/Warrior.uasset'
+[2021.07.24-16.55.05:662][571]AssetCheck: New page: Asset Save: Warrior
+[2021.07.24-16.55.05:662][571]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/Warrior.Warrior
+[2021.07.24-16.55.06:276][640]BlueprintLog: New page: Compile Warrior
+[2021.07.24-16.55.06:450][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.07.24-16.55.07:341][733]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 76
+[2021.07.24-16.55.08:917][910]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
+[2021.07.24-16.55.11:508][170]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2021.07.24-16.55.14:615][349]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 46
+[2021.07.24-16.55.16:362][475]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 36
+[2021.07.24-16.55.17:152][531]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2021.07.24-16.55.18:979][646]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2021.07.24-16.55.21:171][796]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2021.07.24-16.55.21:779][831]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2021.07.24-16.55.22:787][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2021.07.24-16.55.23:092][916]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2021.07.24-16.55.23:362][932]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.07.24-16.55.34:112][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.07.24-16.55.34:115][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level" FILE="D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Levels/main_level_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.07.24-16.55.34:225][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level_Auto2115CF5FD4061CA20A42EE7AB58D2D78E.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Levels/main_level_Auto2.umap'
+[2021.07.24-16.55.34:226][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TkachenkoAA/Levels/main_level' took 0.150
+[2021.07.24-16.55.34:226][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2021.07.24-16.55.34:227][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TkachenkoAA/Character/MainCharacter] ([1] browsable assets)...
+[2021.07.24-16.55.34:250][ 13]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter]
+[2021.07.24-16.55.34:250][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/TkachenkoAA/Character/MainCharacter]
+[2021.07.24-16.55.34:250][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Character/MainCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.07.24-16.55.34:299][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter_Auto2556DFE9940C9C9354087BF8DEF231537.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/TkachenkoAA/Character/MainCharacter_Auto2.uasset'
+[2021.07.24-16.55.34:301][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Download/StarterContent/Materials/M_Water_Lake] ([1] browsable assets)...
+[2021.07.24-16.55.34:322][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Download/StarterContent/Materials/M_Water_Lake.M_Water_Lake]
+[2021.07.24-16.55.34:322][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/Download/StarterContent/Materials/M_Water_Lake]
+[2021.07.24-16.55.34:342][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Water_Lake_Auto2C22DC50A4DEA516A4D8EFFB7BD521DC3.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/Download/StarterContent/Materials/M_Water_Lake_Auto2.uasset'
+[2021.07.24-16.55.34:343][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished] ([1] browsable assets)...
+[2021.07.24-16.55.34:365][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished]
+[2021.07.24-16.55.34:365][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished]
+[2021.07.24-16.55.34:383][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Wood_Floor_Walnut_Polished_AutB0574BC54C51A2832291CA93DB4CEC0F.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished_Auto2.uasset'
+[2021.07.24-16.55.34:384][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Water_Ocean] ([1] browsable assets)...
+[2021.07.24-16.55.34:405][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean]
+[2021.07.24-16.55.34:405][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Water_Ocean]
+[2021.07.24-16.55.34:425][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Water_Ocean_Auto2D63B607C4A2939164663138A97106BAF.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Ocean_Auto2.uasset'
+[2021.07.24-16.55.34:428][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST] ([1] browsable assets)...
+[2021.07.24-16.55.34:453][ 13]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST.M_UI_Inventory_backdrop_INST]
+[2021.07.24-16.55.34:453][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST]
+[2021.07.24-16.55.34:466][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_UI_Inventory_backdrop_INST_AutBAD0AE6047E0D21B467D7AB64AC4C500.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST_Auto2.uasset'
+[2021.07.24-16.55.34:468][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster] ([1] browsable assets)...
+[2021.07.24-16.55.34:491][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster.M_Opaque_Static_Lit_Emis_PanMaster]
+[2021.07.24-16.55.34:492][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster]
+[2021.07.24-16.55.34:513][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Opaque_Static_Lit_Emis_PanMastECB53F384BCB66543532DCA623C2272E.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster_Auto2.uasset'
+[2021.07.24-16.55.34:514][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Wood_Pine] ([1] browsable assets)...
+[2021.07.24-16.55.34:536][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine]
+[2021.07.24-16.55.34:536][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Wood_Pine]
+[2021.07.24-16.55.34:536][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood_Pine" FILE="D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/StarterContent/Materials/M_Wood_Pine_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.07.24-16.55.34:561][ 13]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Wood_Pine_Auto2B7EF1D774D6B427476EA7CA00211A301.tmp' to 'D:/Game/TkachenkoAA1507/Saved/Autosaves/Game/StarterContent/Materials/M_Wood_Pine_Auto2.uasset'
+[2021.07.24-16.55.34:562][ 13]LogFileHelpers: Auto-saving content packages took 0.335
+[2021.07.24-16.57.42:013][201]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.24-16.57.42:025][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.24-16.57.42:025][201]PIE: New page: PIE session: main_level (24 июл. 2021 г., 22:57:42)
+[2021.07.24-16.57.42:061][201]LogPlayLevel: Creating play world package: /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.57.42:080][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018635s)
+[2021.07.24-16.57.42:080][201]LogAIModule: Creating AISystem for world main_level
+[2021.07.24-16.57.42:080][201]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018558F7F600), frame # 285201
+[2021.07.24-16.57.42:080][201]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018582CF6480), frame # 285201
+[2021.07.24-16.57.42:081][201]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2021.07.24-16.57.42:081][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TkachenkoAA/Levels/main_level.main_level to /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level (0.019852s)
+[2021.07.24-16.57.42:117][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.24-16.57.42:122][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.24-16.57.42:122][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.24-16.57.42:123][201]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.24-16.57.42:123][201]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.24-16.57.42:127][201]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.24-16.57.42:127][201]LogAudioMixer: Display: 1: FrontRight
+[2021.07.24-16.57.42:156][201]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.07.24-16.57.42:156][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.24-16.57.42:156][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.24-16.57.42:156][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.24-16.57.42:156][201]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.24-16.57.42:170][201]LogInit: FAudioDevice initialized.
+[2021.07.24-16.57.42:181][201]LogLoad: Game class is 'MainGM_C'
+[2021.07.24-16.57.42:186][201]LogWorld: Bringing World /Game/TkachenkoAA/Levels/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2021.07.24-19.57.42
+[2021.07.24-16.57.42:187][201]LogWorld: Bringing up level for play took: 0.004467
+[2021.07.24-16.57.42:188][201]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.07.24-16.57.42:191][201]PIE: Server logged in
+[2021.07.24-16.57.42:192][201]PIE: Play in editor total start time 0,168 seconds.
+[2021.07.24-16.57.55:672][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.57.55:672][554]LogWorld: BeginTearingDown for /Game/TkachenkoAA/Levels/UEDPIE_0_main_level
+[2021.07.24-16.57.55:672][554]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2021.07.24-16.57.55:673][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.57.55:681][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.24-16.57.55:686][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.24-16.57.55:740][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.24-16.57.55:741][554]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018582CF6480), frame # 286554
+[2021.07.24-16.57.55:741][554]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018558F7F600), frame # 286554
+[2021.07.24-16.57.55:744][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.07.24-16.57.55:781][555]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.07.24-16.57.57:828][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.07.24-16.57.57:864][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.07.24-16.57.57:987][766]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level5C9CE53949318A81377C2C849D95BB3F.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level.umap'
+[2021.07.24-16.57.58:103][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Levels/main_level_BuiltData" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset" SILENT=true
+[2021.07.24-16.57.58:123][766]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/main_level_BuiltDataBB7DEFFE45FBE32D6B9C3A856E5CF44D.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Levels/main_level_BuiltData.uasset'
+[2021.07.24-16.57.58:139][766]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.24-16.57.58:139][766]LogContentValidation: Display: Validating World /Game/TkachenkoAA/Levels/main_level.main_level
+[2021.07.24-16.57.58:139][766]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TkachenkoAA/Levels/main_level_BuiltData.main_level_BuiltData
+[2021.07.24-16.58.00:455][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.07.24-16.58.01:970][954]LogSlate: Window 'Save Content' being destroyed
+[2021.07.24-16.58.02:328][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Download/StarterContent/Materials/M_Water_Lake" FILE="D:/Game/TkachenkoAA1507/Content/Download/StarterContent/Materials/M_Water_Lake.uasset" SILENT=true
+[2021.07.24-16.58.02:341][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Water_Lake5E7748E8474995520FDEE7A00378A79F.tmp' to 'D:/Game/TkachenkoAA1507/Content/Download/StarterContent/Materials/M_Water_Lake.uasset'
+[2021.07.24-16.58.02:363][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Wood_Floor_Walnut_Polished1411A4BE4BDB1DA40EA24DBD5599AA64.tmp' to 'D:/Game/TkachenkoAA1507/Content/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset'
+[2021.07.24-16.58.02:371][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_UI_Inventory_backdrop_INST417ABE6A46C65B8B7F4C60AFB9F6DEF8.tmp' to 'D:/Game/TkachenkoAA1507/Content/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST.uasset'
+[2021.07.24-16.58.02:380][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Opaque_Static_Lit_Emis_PanMast9F46A3384987EF292F538FA23B74938A.tmp' to 'D:/Game/TkachenkoAA1507/Content/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster.uasset'
+[2021.07.24-16.58.02:387][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Water_Ocean" FILE="D:/Game/TkachenkoAA1507/Content/StarterContent/Materials/M_Water_Ocean.uasset" SILENT=true
+[2021.07.24-16.58.02:401][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Water_OceanF40A538F43BB5D820799E3BCAB05F0DB.tmp' to 'D:/Game/TkachenkoAA1507/Content/StarterContent/Materials/M_Water_Ocean.uasset'
+[2021.07.24-16.58.02:402][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood_Pine" FILE="D:/Game/TkachenkoAA1507/Content/StarterContent/Materials/M_Wood_Pine.uasset" SILENT=true
+[2021.07.24-16.58.02:415][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/M_Wood_Pine3DA2CF0E4E9BE14180C2FC95C530B247.tmp' to 'D:/Game/TkachenkoAA1507/Content/StarterContent/Materials/M_Wood_Pine.uasset'
+[2021.07.24-16.58.02:416][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TkachenkoAA/Character/MainCharacter" FILE="D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset" SILENT=true
+[2021.07.24-16.58.02:435][954]LogSavePackage: Moving 'D:/Game/TkachenkoAA1507/Saved/MainCharacter0C8411934CC9982A946AE59CBE13F3AC.tmp' to 'D:/Game/TkachenkoAA1507/Content/TkachenkoAA/Character/MainCharacter.uasset'
+[2021.07.24-16.58.02:483][954]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Material /Game/Download/StarterContent/Materials/M_Water_Lake.M_Water_Lake
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Material /Game/Download/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/InfinityBladeEffects/Effects/FX_Materials/Misc/M_UI_Inventory_backdrop_INST.M_UI_Inventory_backdrop_INST
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Material /Game/InfinityBladeEffects/Effects/Masters/M_Opaque_Static_Lit_Emis_PanMaster.M_Opaque_Static_Lit_Emis_PanMaster
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine
+[2021.07.24-16.58.02:483][954]LogContentValidation: Display: Validating Blueprint /Game/TkachenkoAA/Character/MainCharacter.MainCharacter
